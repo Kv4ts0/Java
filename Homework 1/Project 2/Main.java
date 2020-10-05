@@ -1,12 +1,11 @@
-import jdk.dynalink.beans.StaticClass;
-
 public class Main {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        a = int input.nextInt();
-        b = int input.nextInt();
-        for(int i = 0, i <= b.length, i++){
-            System.out.println(a[i]);
-        }
+        ClassA a1 = new ClassA();
+        ClassA.ClassB b1 = new ClassA.ClassB();
+        a1.method1();
+        a1.method2();
+        a1.method3();
+        b1.method1_1();
+        b1.method2_2(6);
     }
 }
