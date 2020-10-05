@@ -15,9 +15,6 @@ public class ClassA {
         if (x % 2 == 0) {
             System.out.println("The number is Even");
         }
-        else if (x % 2 != 0){
-            System.out.println("The number is odd");
-        }
     }
     static class ClassB extends ClassA {
         int y = 0;
